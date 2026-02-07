@@ -1,6 +1,8 @@
 # Hi, I'm Yang Li 👋
 
-**VP Technical Lead @ Barclays** | AI/ML Engineer | MBA, MSc
+**Platform Engineer by day ☀️ | GenAI/AI-ML Enthusiast by night 🌙**
+
+VP Technical Lead @ Barclays | MBA, MSc
 
 > "Learn to conduct, not play" - orchestrate AI, don't type every line yourself
 
@@ -8,14 +10,29 @@
 
 ## 🚀 About Me
 
-I'm passionate about **AI/ML**, **software development**, and building innovative solutions that push the boundaries of what's possible. I believe in the power of AI augmentation - one person + AI can replace a 5-person team.
+**By day**, I architect and build enterprise platforms at scale. **By night**, I explore the frontiers of GenAI, building agents, RAG systems, and AI-powered tools that push boundaries.
 
-- 🔭 Currently working on: **AI-powered development crews** and **enterprise AI solutions**
+I believe in the power of **AI augmentation** - one person + AI can replace a 5-person team. My mission: democratize AI development and prove that speed beats perfection.
+
+- 🔭 Currently working on: **[QR Greeting](https://qr-greeting.streamlit.app)** - AI-powered personalized greetings (foundation for future innovations)
 - 🌱 Learning: **MCP (Model Context Protocol)**, advanced **LangGraph patterns**, **CUDA programming**
-- 💬 Ask me about: **RAG systems**, **AI agents**, **GitLab CI/CD**, **Kubernetes**
-- ⚡ Fun fact: I code in VR using Quest 3 while entertaining in the background 🎮
+- 💬 Ask me about: **RAG systems**, **AI agents**, **Platform Engineering**, **GitLab CI/CD**, **Kubernetes**
+- ⚡ Fun fact: I code in VR using Quest 3 while entertaining in background 🎮
 - 📝 Blog: [Yang's Ideas](https://edisonideas.wordpress.com) - sharing brilliant ideas
 - 🎯 Philosophy: **Done > Perfect. Every time.**
+
+---
+
+## 🎨 Featured Project
+
+### 🎁 [QR Greeting](https://qr-greeting.streamlit.app) - AI-Powered Personalized Greetings
+
+**Live Demo:** https://qr-greeting.streamlit.app
+
+Built in 48 hours with AI assistance, this app generates stunning personalized greeting cards with custom QR codes. The foundation technology will power multiple future innovations in personalized digital experiences.
+
+**Tech Stack:** Python, Streamlit, AI-generated content, QR encoding  
+**Vision:** Democratizing personalized digital communication
 
 ---
 
@@ -94,10 +111,11 @@ Comprehensive tutorials and educational content
 - [golang_lab](https://github.com/ly2xxx/golang_lab) - Hands-on Go tutorial
 - [openclaw-academy](https://github.com/ly2xxx/openclaw-academy) ⭐1 - Clawdbot learning
 
-### 💼 Business Tools (4 projects)
-HR toolkit, email automation, research tools
-- [hrtoolkit](https://github.com/ly2xxx/hrtoolkit) - Performance management
-- [treasure](https://github.com/ly2xxx/treasure) - Global treasure hunt
+### 💼 Business & Creative Tools (5 projects)
+Production apps for HR, personalization, research, and automation
+- **[QR Greeting](https://qr-greeting.streamlit.app)** 🎁 - AI-powered personalized greetings (LIVE)
+- [hrtoolkit](https://github.com/ly2xxx/hrtoolkit) - Performance management & succession planning
+- [treasure](https://github.com/ly2xxx/treasure) - Global treasure hunt research tool
 
 ### 🌐 Web Automation (3 projects)
 Browser automation and content extraction
