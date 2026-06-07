@@ -13,198 +13,132 @@ VP Technical Lead @ Barclays | MBA, MSc
 **By day**, I architect and build enterprise platforms at scale. **By night**, I explore the frontiers of GenAI, building agents, RAG systems, and AI-powered tools that push boundaries.
 
 I believe in the power of **AI augmentation** - one person + AI can replace a 5-person team. My mission: democratize AI development and prove that speed beats perfection.
+Personal projects demonstrating GenAI, LLM systems, RAG, agentic AI, and full-stack deployment. All open-source on GitHub: [github.com/ly2xxx](https://github.com/ly2xxx)
 
-- 🔭 Currently working on: **[QR Greeting](https://qr-greeting.streamlit.app)** - AI-powered personalized greetings (foundation for future innovations)
-- 🌱 Learning: **MCP (Model Context Protocol)**, advanced **LangGraph patterns**, **CUDA programming**
-- 💬 Ask me about: **RAG systems**, **AI agents**, **Platform Engineering**, **GitLab CI/CD**, **Kubernetes**
-- ⚡ Fun fact: I code in VR using Quest 3 while entertaining in background 🎮
-- 📝 Blog: [Yang's Ideas](https://edisonideas.wordpress.com) - sharing brilliant ideas
-- 🎯 Philosophy: **Done > Perfect. Every time.**
-
----
-
-## 🎨 Featured Project
-
-### 🎁 [QR Greeting](https://qr-greeting.streamlit.app) - AI-Powered Personalized Greetings
-
-**Live Demo:** https://qr-greeting.streamlit.app
-
-Built in 48 hours with AI assistance, this app generates stunning personalized greeting cards with custom QR codes. The foundation technology will power multiple future innovations in personalized digital experiences.
-
-**Tech Stack:** Python, Streamlit, AI-generated content, QR encoding  
-**Vision:** Democratizing personalized digital communication
+## 💡 Core Philosophy: Pragmatic, Real-World AI & Engineering
+* **Problem-First, Not Tech-First:** I build tools that solve actual friction points. For example, [netshare](#2-netshare--secure-local-wifi-file-sharing-tool) bridges local network sharing for VR headsets, and [GCO](#4-gco-glasgow-chinese-open--community-golf-league-dashboard) runs live in production serving a local community daily.
+* **Aggressive Anti-Over-Engineering:** I value shipping velocity and simple runtime states over unnecessary enterprise complexity (e.g., using lightweight JSON states & Streamlit for [GCO](#4-gco-glasgow-chinese-open--community-golf-league-dashboard) or launching the **QR-Greeting** funnel in 48 hours).
+* **AI & "Vibe Coding" as a Velocity Multiplier:** I adapt rapidly to new ecosystems by orchestrating GenAI tools, transitioning from Streamlit to full-stack React/[Next.js](#5-event-market--event-sponsor-marketplace-mvp) ([event-market](#5-event-market--event-sponsor-marketplace-mvp)) in under a week with zero prior framework knowledge.
+* **Local-First & Privacy-Focused:** I prioritize privacy and direct connections (like self-hosted models in [local-rag-ollama](#7-local-rag-ollama--chatpdf-running-locally) and local MCP contexts in [md-mcp](#1-md-mcp--mcp-server-for-local-markdown-files)).
 
 ---
 
-## 🤖 AI & ML Expertise
+## 🏆 Flagship Projects
 
-### Featured AI Projects
+### 1. md-mcp — MCP Server for Local Markdown Files
+**GitHub:** https://github.com/ly2xxx/md-mcp
+**Live:** https://pypi.org/project/md-mcp/ | Published v1.0.x March 2026
+**Live:** https://hub.docker.com/repository/docker/ly2xxx/md-mcp/general | Published v1.0.x June 2026
+**Stack:** Python, MCP (Model Context Protocol), LLM tooling, docker with k8s(soon), gh CI, Pytest-BDD
 
-🧠 **[agents](https://github.com/ly2xxx/agents)** ⭐ 4 - LangGraph-based intelligent agents  
-💬 **[rag_chat_opensource_llm](https://github.com/ly2xxx/rag_chat_opensource_llm)** ⭐ 2 - Open-source RAG chatbot  
-🚀 **[aidev](https://github.com/ly2xxx/aidev)** - GenAI-powered software development team  
-🔧 **[SmartDevelop](https://github.com/ly2xxx/SmartDevelop)** - AI-powered code generation  
-
-### AI/ML Stack
-
-```python
-ai_stack = {
-    "frameworks": ["LangChain", "LangGraph", "DSPy"],
-    "models": ["OpenAI GPT-4", "Claude", "Gemini", "Ollama"],
-    "vector_dbs": ["FAISS", "Weaviate", "Pinecone"],
-    "tools": ["Streamlit", "Jupyter", "Playwright"]
-}
-```
+Transforms prompt engineering into context engineering — makes local markdown files instantly available to any LLM as context. Built with the Model Context Protocol, published to PyPI, supports multiple LLM providers.
 
 ---
 
-## 🔧 Technical Skills
+### 2. netshare — Secure Local WiFi File Sharing Tool
+**GitHub:** https://github.com/ly2xxx/netshare
+**Live:** https://pypi.org/project/netshare/ | Published v1.0.x January 2026
+**Live:** https://qr-greeting.streamlit.app/ | Marketing Funnel & Product Demo
+**Read:** https://edisonideas.wordpress.com/2025/12/15/how-i-built-marketed-and-launched-a-product-in-48-hours-using-ai-no-team-required/ | 48-Hour Solopreneur/AI Launch Case Study
+**Stack:** Python, Flask, Tkinter (GUI), qrcode, HTML/CSS, PowerShell (Firewall utility), Streamlit (Funnel app)
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Enables secure, easy folder sharing from host computers (Windows, macOS, Linux) to mobile, tablet, and Quest VR devices over a local WiFi network. Features a graphical folder picker, instant QR code generation for mobile devices, and robust security controls (rate limiting, file extension filtering, and path traversal protection).
 
-### AI/ML & Data Science
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-### DevOps & Cloud
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+**Marketing & Solopreneur Launch:** Spun off a consumer greeting-card product, **QR-Greeting**, built on top of this engine. Hand-launched the product and marketing funnel as a "one-man-company" experimental weekend project with my daughter within 48 hours, leveraging GenAI tools for rapid development, design, and marketing content.
 
 ---
 
-## 📊 GitHub Stats
+### 3. aidev — MCP-Based Development Crew
+**GitHub:** https://github.com/ly2xxx/aidev
+**Read:** https://edisonideas.wordpress.com/2025/06/28/the-next-level-of-ai-powered-development-building-my-genai-development-crew/
+**Stack:** MCP, Claude Code, Gemini CLI, Docker
 
-![Yang's GitHub stats](https://github-readme-stats.vercel.app/api?username=ly2xxx&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ly2xxx&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
----
-
-## 🌟 Featured Projects by Category
-
-### 🤖 AI/ML (18 projects)
-Production-ready AI agents, RAG systems, and LLM applications
-- [aidev](https://github.com/ly2xxx/aidev) - AI development team with MCP
-- [agents](https://github.com/ly2xxx/agents) ⭐4 - LangGraph agents
-- [rag_chat_opensource_llm](https://github.com/ly2xxx/rag_chat_opensource_llm) ⭐2 - RAG chatbot
-
-### 🔧 DevOps (9 projects)
-GitLab CI/CD, Kubernetes, Infrastructure as Code
-- [gitlab_lab](https://github.com/ly2xxx/gitlab_lab) - Hands-on GitLab tutorial
-- [okd](https://github.com/ly2xxx/okd) - OpenShift homelab setup
-- [gitlab-runner-poc](https://github.com/ly2xxx/gitlab-runner-poc) ⭐1
-
-### 📚 Learning (6 projects)
-Comprehensive tutorials and educational content
-- [cuda-transformer](https://github.com/ly2xxx/cuda-transformer) - CUDA & Transformer tutorial
-- [golang_lab](https://github.com/ly2xxx/golang_lab) - Hands-on Go tutorial
-- [openclaw-academy](https://github.com/ly2xxx/openclaw-academy) ⭐1 - Clawdbot learning
-
-### 💼 Business & Creative Tools (5 projects)
-Production apps for HR, personalization, research, and automation
-- **[QR Greeting](https://qr-greeting.streamlit.app)** 🎁 - AI-powered personalized greetings (LIVE)
-- [hrtoolkit](https://github.com/ly2xxx/hrtoolkit) - Performance management & succession planning
-- [treasure](https://github.com/ly2xxx/treasure) - Global treasure hunt research tool
-
-### 🌐 Web Automation (3 projects)
-Browser automation and content extraction
-- [grabit](https://github.com/ly2xxx/grabit) - Streamlit web scraper
-- [browser-use_poc](https://github.com/ly2xxx/browser-use_poc)
-
-### 📦 See All 53 Projects
-**[→ Browse Complete Catalog](https://ly2xxx.github.io/catalog)**
+Orchestrates multiple AI agents (Claude + Gemini) via MCP to act as a development crew — planning, coding, reviewing, containerizing. Accompanied by YouTube walkthrough videos.
 
 ---
 
-## 🎯 Current Focus (2026)
+### 4. GCO (Glasgow Chinese Open) — Community Golf League Dashboard
+**GitHub:** https://github.com/ly2xxx/gco
+**Live:** https://gco-2026.streamlit.app/ | Streamlit Cloud Deployment
+**Stack:** Python, Streamlit, Pandas, Plotly, JSON (State Management), Pytest/BDD, UV
 
-- 🤖 Building advanced **multi-agent systems** with LangGraph
-- 🏢 Developing **enterprise AI solutions** for business automation
-- 📝 Contributing to **open-source AI tools** and frameworks
-- 🎓 Creating **educational content** about AI development
-- 🔬 Exploring **MCP** (Model Context Protocol) integrations
-
----
-
-## 📈 Recent Activity
-
-<!--START_SECTION:activity-->
-<!-- This section can be auto-updated with GitHub Actions -->
-<!--END_SECTION:activity-->
+Tracks announcements, handicaps, round scoring, league standings, cup tournaments, and team matchups for the Glasgow Southside Chinese Golf community. This was my first "vibe coded" (fully LLM-assisted) application that moved from concept to production, and it is now actively used daily by the local community.
 
 ---
 
-## 💡 Philosophy & Beliefs
+### 5. event-market — Event Sponsor Marketplace MVP
+**GitHub:** https://github.com/ly2xxx/event-market
+**Live:** https://vercel.com/ly2xxxs-projects/event-market | Deployed on Vercel
+**Stack:** React, Next.js, TypeScript, TailwindCSS, PostCSS, Vercel
 
-```python
-class Developer:
-    def __init__(self):
-        self.mindset = {
-            "speed": "Done > Perfect. Every time.",
-            "ai_augmentation": "One person + AI = 5-person team",
-            "learning": "Learn to conduct, not play",
-            "open_source": "Share knowledge, learn together",
-            "innovation": "Build things that matter"
-        }
-    
-    def build(self, idea):
-        return self.orchestrate_ai(idea) + self.human_creativity()
-```
+A sponsor marketplace MVP allowing organizers to list events and sponsors to browse opportunities. This project was my first venture into React and Next.js, developed purely through "vibe coding" (LLM-driven development) without any prior web framework knowledge. It represents a hands-on transition from python/streamlit script-based top-down architectures to component-based stateful web applications.
 
 ---
 
-## 📝 Latest Blog Posts
+## 🔧 Solid Supporting Projects
 
-<!-- BLOG-POST-LIST:START -->
-- [One-Man Company Revolution: AI as Your Development Team](https://edisonideas.wordpress.com)
-- [Learn to Conduct, Not Play: Orchestrating AI for Software Development](https://edisonideas.wordpress.com)
-- [Building Production RAG Systems with Open-Source LLMs](https://edisonideas.wordpress.com)
-<!-- BLOG-POST-LIST:END -->
+### 6. langraph — Multi-Agent Research Workflows
+**GitHub:** https://github.com/ly2xxx/langraph
+**Stack:** Python, LangGraph, LangChain, OpenAI API, AWS Bedrock, Streamlit, Jupyter Notebooks
 
-➡️ [More blog posts...](https://edisonideas.wordpress.com)
+An experimental codebase for building stateful, multi-agent workflows using LangGraph and LangChain. Implements agent patterns such as a multi-agent news researcher/analyst system with state machine routing, dynamic tool calling, and human-in-the-loop validation. Deployed with Streamlit and Jupyter interfaces to visualize agent state transitions and graph nodes.
 
 ---
 
-## 🏆 Achievements
+### 7. local-rag-ollama — ChatPDF Running Locally
+**GitHub:** https://github.com/ly2xxx/local-rag-ollama
+**Stack:** LangChain, Ollama, Python
 
-- ⭐ **11 GitHub Stars** across projects
-- 🚀 **53 Public Repositories** covering AI, DevOps, tutorials
-- 📚 **6 Comprehensive Tutorials** for learning various technologies
-- 🤖 **18 AI/ML Projects** from POC to production
-- 💼 **VP Technical Lead** at Barclays
+Build your own ChatPDF — fully offline. Upload documents, get grounded answers from local LLM with no data leaving your machine.
 
 ---
 
-## 📫 Connect With Me
+### 8. HR-toolkit — GenAI for Talent Management
+**Live:** https://hrtoolkit.streamlit.app
+**GitHub:** https://github.com/ly2xxx/hrtoolkit/
+**Stack:** Streamlit, Python, GenAI
 
-<p align="left">
-<a href="https://linkedin.com/in/yang-li-78917021" target="_blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/ly2xxx" target="_blank"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://edisonideas.wordpress.com" target="_blank"><img align="center" src="https://img.shields.io/badge/Blog-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="Blog" /></a>
-</p>
+Deploys multiple GenAI tools for HR workflows — resume screening, interview prep, job description generation.
 
 ---
 
-## 💬 Let's Collaborate
+### 9. Global Treasure Hunt — AI Research Tool
+**Live:** https://globaltreasurehunt.streamlit.app
+**GitHub:** https://github.com/ly2xxx/treasure/
+**Stack:** Streamlit, Python, LLM research pipelines
 
-I'm always interested in:
-- 🤝 Collaborating on **AI/ML projects**
-- 💡 Discussing **innovative AI applications**
-- 📚 Creating **educational content** together
-- 🔬 Exploring **cutting-edge AI technologies**
+AI-powered research tool for exploring historical/problem-solving topics — demonstrates ability to build and deploy consumer-facing AI tools.
 
-Feel free to reach out if you want to chat about AI, software development, or anything tech!
+---
+
+### 10. DevOps-labs — Infrastructure-as-Code & Kubernetes
+**GitHub:** https://github.com/ly2xxx/DevOps-labs
+**Stack:** PowerShell, Kubernetes, Helm, CRC/OKD, Vault
+
+Hands-on DevOps learning labs — secrets rotation, Kubernetes deployments, infrastructure automation.
+
+---
+
+### 11. browser-use — AI Agent Controlling a Browser
+**GitHub:** https://github.com/gregpr07/browser-use (contributor/explorer)
+**Stack:** Python, LangChain, Playwright
+
+Explored and extended the browser-use library — enables AI agents to interact with websites, fill forms, extract data. Used for real-world automation including flight price monitoring.
+
+---
+
+## 📊 Summary by Skill Area
+
+| Skill | Projects |
+|---|---|
+| **LLM / RAG / Agentic AI** | RAGent, aidev, md-mcp, langraph, browser-use |
+| **Finance + AI** | ai-hedge-fund |
+| **MCP Protocol** | md-mcp, aidev |
+| **Python / PyPI** | md-mcp, netshare (published packages) |
+| **Local AI / Ollama** | RAGent, local-rag-ollama |
+| **Deployment / Streamlit** | HR-toolkit, Global Treasure Hunt, qr-greeting, GCO, langraph |
+| **Browser Automation** | browser-use, flight monitoring |
+| **React / Next.js / Web** | event-market |
 
 ---
 
