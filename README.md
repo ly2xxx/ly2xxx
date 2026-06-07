@@ -119,14 +119,6 @@ Hands-on DevOps learning labs — secrets rotation, Kubernetes deployments, infr
 
 ---
 
-### 11. browser-use — AI Agent Controlling a Browser
-**GitHub:** https://github.com/gregpr07/browser-use (contributor/explorer)
-**Stack:** Python, LangChain, Playwright
-
-Explored and extended the browser-use library — enables AI agents to interact with websites, fill forms, extract data. Used for real-world automation including flight price monitoring.
-
----
-
 ## 📊 Summary by Skill Area
 
 | Skill | Projects |
