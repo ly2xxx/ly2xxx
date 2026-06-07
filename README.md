@@ -28,7 +28,7 @@ Personal projects demonstrating GenAI, LLM systems, RAG, agentic AI, and full-st
 ### 1. md-mcp — MCP Server for Local Markdown Files
 **GitHub:** https://github.com/ly2xxx/md-mcp
 **Live:** https://pypi.org/project/md-mcp/ | Published v1.0.x March 2026
-**Live:** https://hub.docker.com/repository/docker/ly2xxx/md-mcp/general | Published v1.0.x June 2026
+**Live:** https://hub.docker.com/r/ly2xxx/md-mcp | Published v1.0.x June 2026
 **Stack:** Python, MCP (Model Context Protocol), LLM tooling, docker with k8s(soon), gh CI, Pytest-BDD
 
 Transforms prompt engineering into context engineering — makes local markdown files instantly available to any LLM as context. Built with the Model Context Protocol, published to PyPI, supports multiple LLM providers.
