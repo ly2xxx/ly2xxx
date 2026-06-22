@@ -39,7 +39,7 @@ Transforms prompt engineering into context engineering — makes local markdown 
 **GitHub:** https://github.com/ly2xxx/langgraph_ollama
 **Stack:** Python, LangGraph, LangChain, SQLite (Checkpointing), FAISS (Vector DB), Ollama (Local LLMs), Streamlit
 
-A production-grade, local multi-agent system showcasing advanced agentic workflows and RAG retrieval over self-hosted LLMs. Implements a LangGraph `StateGraph` using a supervisor/agent-node pattern, SQLite-backed persistent checkpointing for conversation history, dynamically generated conversation summarization, a dedicated RAG agent powered by FAISS, and multimodal capabilities supporting base64 image inputs.
+A local multi-agent system showcasing advanced agentic workflows and RAG retrieval over self-hosted LLMs. Implements a LangGraph `StateGraph` using a supervisor/agent-node pattern, SQLite-backed persistent checkpointing for conversation history, dynamically generated conversation summarization, a dedicated RAG agent powered by FAISS, and multimodal capabilities supporting base64 image inputs.
 
 ---
 ### 2. netshare — Secure Local WiFi File Sharing Tool
