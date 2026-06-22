@@ -25,7 +25,7 @@ Personal projects demonstrating GenAI, LLM systems, RAG, agentic AI, and full-st
 
 ## 🏆 Flagship Projects
 
-### 1. md-mcp — MCP Server for Local Markdown Files
+### 0. md-mcp — MCP Server for Local Markdown Files
 **GitHub:** https://github.com/ly2xxx/md-mcp
 **Live:** https://pypi.org/project/md-mcp/ | Published v1.0.x March 2026
 **Live:** https://hub.docker.com/r/ly2xxx/md-mcp | Published v1.0.x June 2026
@@ -34,7 +34,14 @@ Personal projects demonstrating GenAI, LLM systems, RAG, agentic AI, and full-st
 Transforms prompt engineering into context engineering — makes local markdown files instantly available to any LLM as context. Built with the Model Context Protocol, published to PyPI, supports multiple LLM providers.
 
 ---
+### 1. langgraph_ollama — Local Multi-Agent & RAG System
 
+**GitHub:** https://github.com/ly2xxx/langgraph_ollama
+**Stack:** Python, LangGraph, LangChain, SQLite (Checkpointing), FAISS (Vector DB), Ollama (Local LLMs), Streamlit
+
+A production-grade, local multi-agent system showcasing advanced agentic workflows and RAG retrieval over self-hosted LLMs. Implements a LangGraph `StateGraph` using a supervisor/agent-node pattern, SQLite-backed persistent checkpointing for conversation history, dynamically generated conversation summarization, a dedicated RAG agent powered by FAISS, and multimodal capabilities supporting base64 image inputs.
+
+---
 ### 2. netshare — Secure Local WiFi File Sharing Tool
 **GitHub:** https://github.com/ly2xxx/netshare
 **Live:** https://pypi.org/project/netshare/ | Published v1.0.x January 2026
@@ -121,16 +128,15 @@ Hands-on DevOps learning labs — secrets rotation, Kubernetes deployments, infr
 
 ## 📊 Summary by Skill Area
 
-| Skill | Projects |
-|---|---|
-| **LLM / RAG / Agentic AI** | RAGent, aidev, md-mcp, langraph, browser-use |
-| **Finance + AI** | ai-hedge-fund |
-| **MCP Protocol** | md-mcp, aidev |
-| **Python / PyPI** | md-mcp, netshare (published packages) |
-| **Local AI / Ollama** | RAGent, local-rag-ollama |
-| **Deployment / Streamlit** | HR-toolkit, Global Treasure Hunt, qr-greeting, GCO, langraph |
-| **Browser Automation** | browser-use, flight monitoring |
-| **React / Next.js / Web** | event-market |
+| Skill                            | Projects                                                     |
+| -------------------------------- | ------------------------------------------------------------ |
+| **LLM / RAG / Agentic AI** | langgraph_ollama, aidev, md-mcp, langraph, browser-use       |
+| **MCP Protocol**           | md-mcp, aidev                                                |
+| **Python / PyPI**          | md-mcp, netshare (published packages)                        |
+| **Local AI / Ollama**      | langgraph_ollama, local-rag-ollama                           |
+| **Deployment / Streamlit** | HR-toolkit, Global Treasure Hunt, qr-greeting, GCO, langraph, langgraph_ollama |
+| **Browser Automation**     | browser-use, flight monitoring                               |
+| **React / Next.js / Web**  | event-market 
 
 ---
 
