@@ -5,6 +5,12 @@
 VP Technical Lead @ Barclays | MBA, MSc
 
 > "Learn to conduct, not play" - orchestrate AI, don't type every line yourself
+>
+topic:portfolio (16 repos) → View on GitHub
+topic:job-search (6 repos) → View on GitHub
+topic:homelab (18 repos) → View on GitHub
+topic:ai-experiment (24 repos) → View on GitHub
+topic:learning (4 repos) → View on GitHub
 
 ---
 
