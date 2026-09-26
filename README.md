@@ -8,7 +8,6 @@ VP Technical Lead @ Barclays | MBA, MSc
 >
 
 - **`topic:portfolio`** (16 repos) → [View on GitHub](https://github.com/search?q=user%3Aly2xxx+topic%3Aportfolio&type=repositories)
-- **`topic:job-search`** (6 repos) → [View on GitHub](https://github.com/search?q=user%3Aly2xxx+topic%3Ajob-search&type=repositories)
 - **`topic:homelab`** (18 repos) → [View on GitHub](https://github.com/search?q=user%3Aly2xxx+topic%3Ahomelab&type=repositories)
 - **`topic:ai-experiment`** (24 repos) → [View on GitHub](https://github.com/search?q=user%3Aly2xxx+topic%3Aai-experiment&type=repositories)
 - **`topic:learning`** (4 repos) → [View on GitHub](https://github.com/search?q=user%3Aly2xxx+topic%3Alearning&type=repositories)
